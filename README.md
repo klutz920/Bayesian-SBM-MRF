@@ -9,18 +9,21 @@
 5. Sample code for a specified G and Q with 5 communities and our recommended MRF prior setting.
 
 \# set up function
+
 set.seed(1)
 my_results = Bayesian_SBM_MRF(G = G, 
                               Q = Q, 
                               k = 5, 
                               f = 1)
 
-# results
+\# results
+
 omegas = my_results[[1]]
 z = my_results[[2]]
 
-# discard first half as burn in
+\# discard first half as burn in
+
 omegas = omegas[-c(1:500),,]
 z = z[-c(1:500),]
 
-# then compute posterior density to identify MAP, compute BIC
+\# then compute posterior density to identify MAP, compute BIC
