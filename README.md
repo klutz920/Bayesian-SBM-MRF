@@ -17,7 +17,7 @@ my_results = Bayesian_SBM_MRF(G = G,
                               k = 5, 
                               f = 1)
 
-\# results
+\# results from all 1000 iterations
 
 z = my_results[[1]]
 
@@ -29,4 +29,3 @@ z = z[-c(1:500),]
 
 omegas = omegas[-c(1:500),,]
 
-\# then compute posterior density to identify MAP, compute BIC
