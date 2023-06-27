@@ -8,7 +8,7 @@
 4. You can run the code for one value of K and f at a time. The function returns all 1000 iterations for parameters Omega and z. You should discard the first half as burn in. Then, use our formulation from the paper to compute the posterior density, MAP, BIC, etc. To compute ARI for simulation data, use the ARI function in the aricode package in R.
 5. Sample code for a specified G and Q with 5 communities and our recommended MRF prior setting.
 
-# set up function
+\# set up function
 set.seed(1)
 my_results = Bayesian_SBM_MRF(G = G, 
                               Q = Q, 
