@@ -11,6 +11,7 @@
 \# set up function
 
 set.seed(1)
+
 my_results = Bayesian_SBM_MRF(G = G, 
                               Q = Q, 
                               k = 5, 
@@ -19,11 +20,13 @@ my_results = Bayesian_SBM_MRF(G = G,
 \# results
 
 omegas = my_results[[1]]
+
 z = my_results[[2]]
 
 \# discard first half as burn in
 
 omegas = omegas[-c(1:500),,]
+
 z = z[-c(1:500),]
 
 \# then compute posterior density to identify MAP, compute BIC
