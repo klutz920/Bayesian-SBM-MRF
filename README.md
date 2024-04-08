@@ -1,5 +1,10 @@
 # Bayesian-SBM-MRF
- 
+## Data File
+
+In the data file, you will find the following:
+
+1.  The real urinary microbiome dataset from our manuscript "A generalized Bayesian stochastic block model for microbiome community detection" with $p=99$ taxa and 75 samples. 
+
 ## Tutorial
 
 1. Save/load the function code in R or download it from GitHub.
