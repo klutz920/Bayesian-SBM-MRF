@@ -4,8 +4,8 @@
 In the data file, you will find the following:
 
 1.  real_urinary_microbiome.csv: The real urinary microbiome dataset from our manuscript "A generalized Bayesian stochastic block model for microbiome community detection" with $p=99$ taxa and $n=75$ samples (postmenopausal women).
-2.  simulation.rdata: the simulated networks with $K=3,6,9$ communities.  This was our original simulation data for the manuscript.
-3.  simulation2.rdata: contains additional simulated networks with $K=12$ communities.  These were added later when we revised our paper for submission to Statistics In Medicine, which included an extension of the original simulation study.  
+2.  simulation.rdata: the simulated networks in R with $K=3,6,9$ communities.  This was our original simulation data for the manuscript. 
+3.  simulation2.rdata: contains additional simulated networks in R with $K=12$ communities.  These were added later when we revised our paper for submission to Statistics In Medicine, which included an extension of the original simulation study.  
 
 ## Tutorial
 
